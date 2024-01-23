@@ -19,14 +19,18 @@ blockquote {
     padding: 0;
 }
 
-header {
+.content-section {
+    width: 360px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.content-section_theme_dark {
+    background-color: black;
     color: white;
 }
 
-footer {
-    color: green;
-}
-
-main {
-    font-size: 35px;
+.content-section_theme_bright {
+    background-color: yellow;
+    color: black;
 }
