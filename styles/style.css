@@ -78,6 +78,28 @@ blockquote {
   padding: 30px 20px 37px;
 }
 
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-gray, #ccc);
+  font-size: 16px;
+  line-height: 120%;
+  margin-bottom: 24px;
+}
+
+.intro__date {
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  color: #F5F5F5;
+  line-height: 21.6px;
+}
+
+.intro__main-text p:first-child {
+  margin-bottom: 24px;
+}
+
 .reasons {
   padding: 40px 20px;
 }
