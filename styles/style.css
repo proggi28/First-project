@@ -20,6 +20,22 @@ blockquote {
   padding: 0;
 }
 
+.content-section {
+  width: 360px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.content-section_theme_dark {
+  background-color: black;
+  color: white;
+}
+
+.content-section_theme_bright {
+  background-color: yellow;
+  color: black;
+}
+
 .header {
   padding: 24px 20px;
   display: flex;
@@ -82,9 +98,12 @@ blockquote {
   display: flex;
   justify-content: space-between;
   color: var(--text-gray, #ccc);
-  font-size: 16px;
-  line-height: 120%;
   margin-bottom: 24px;
+}
+
+.intro__title {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .intro__date {
@@ -104,26 +123,46 @@ blockquote {
   padding: 40px 20px;
 }
 
+.content-section__subtitle .accent-span {
+  color: var(--black-bg, #131313);
+  font-family: "EB Garamond";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 115%;
+}
+
+.content-section__introduction {
+  margin-top: 32px;
+  color: var(--black-bg, #131313);
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.content-section__list {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.content-section__list-item {
+  line-height: 21.6px;
+  margin-bottom: 16px;
+}
+
+.content-section__list-item:last-child {
+margin-bottom: 0;
+}
+
+.content-section__list-accent {
+font-weight: 700;
+}
+
 .how-to {
   padding: 40px 20px 60px;
 }
 
 .footer {
   padding: 20px;
-}
-
-.content-section {
-  width: 360px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-.content-section_theme_dark {
-  background-color: black;
-  color: white;
-}
-
-.content-section_theme_bright {
-  background-color: yellow;
-  color: black;
 }
