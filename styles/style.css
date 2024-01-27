@@ -124,7 +124,6 @@ blockquote {
 }
 
 .content-section__subtitle .accent-span {
-  color: var(--black-bg, #131313);
   font-family: "EB Garamond";
   font-size: 28px;
   font-weight: 500;
@@ -133,7 +132,6 @@ blockquote {
 
 .content-section__introduction {
   margin-top: 32px;
-  color: var(--black-bg, #131313);
   font-size: 20px;
   line-height: 27px;
 }
@@ -161,8 +159,30 @@ font-weight: 700;
 
 .how-to {
   padding: 40px 20px 60px;
+  color: white;
 }
 
 .footer {
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copy {
+  line-height: 135%;
+}
+
+.footer__links {
+  display: flex;
+  list-style-type: none;
+  line-height: 125%;
+}
+
+.footer__links a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__links a:last-child {
+  margin-left: 16px;
 }
