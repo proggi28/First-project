@@ -150,16 +150,64 @@ blockquote {
 }
 
 .content-section__list-item:last-child {
-margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .content-section__list-accent {
-font-weight: 700;
+  font-weight: 700;
 }
 
 .how-to {
   padding: 40px 20px 60px;
   color: white;
+}
+
+.card-list {
+  margin-top: 32px;
+  list-style-type: none;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+}
+
+.card_theme_bright {
+  background-color: #FEE42A;
+  color: black;
+}
+
+.card {
+  border-radius: 30px;
+  padding: 20px;
+  margin-bottom: 32px;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.card__author-name {
+  margin-top: 8px;
+  font-weight: 700;
+  line-height: 135%;
+}
+
+.card__title {
+  margin-top: 8px;
+  font-family: "EB Garamond";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 135%;
+}
+
+.card__text {
+  margin-top: 8px;
+  line-height: 21.6px;
 }
 
 .footer {
